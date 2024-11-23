@@ -1,35 +1,146 @@
-# Gouranga-Paul-and-Sons FrontendV2
+# **🌟 Gouranga Paul eCommerce Platform**
 
-The V2 frontend of Gouranga Paul and Sons.
+An eCommerce web application designed for **Gouranga Paul**, a leading brand for readymade blouses and petticoats. The platform offers both wholesale and retail shopping experiences, enabling customers to browse, purchase, and manage their orders seamlessly.
 
-## Pre-requisites
+---
 
-- Install [Node.js](https://nodejs.org/en/)
-- Install [VS Code](https://code.visualstudio.com/)
+## **✨ Features**
 
-## Getting started
+-   🔐 **User Authentication**:
 
-- Clone the repository
+    -   **Sign Up** with OTP verification.
+    -   **Login** to access personalized features.
 
-```
-git clone https://github.com/Gouranga-Paul-and-Sons/frontendV2
-```
+-   🛒 **Shopping Cart**:
 
-- Install dependencies
+    -   Add items to the cart, update quantities, or remove items.
 
-```
-cd frontendV2
-yarn install
-```
+-   ✅ **Checkout**:
 
-- Build and run the project
+    -   A user-friendly interface for seamless order placement.
 
-```
-yarn run build
-yarn dev
-```
+-   🏠 **Address Management**:
 
-Navigate to `http://localhost:3000`
+    -   Add, edit, or remove shipping and billing addresses.
+    -   Option to use existing addresses for convenience.
 
-## Figma Design for this project
-https://www.figma.com/design/ul5IPSWiS4YUW7ud0BhOYM/gourangapaul.com?node-id=0-1&t=2ggeLBm2DlW8LMqH-1
+-   💳 **Payment Gateway Integration**:
+
+    -   Powered by **CCAvenue** for secure payment processing.
+
+-   📋 **Order History**:
+    -   Users can view and manage past orders from the **My Orders** page.
+
+---
+
+## **🛠️ Tech Stack**
+
+### **Frontend**:
+
+-   ⚡ **Next.js**: Fast, scalable, and SEO-friendly framework for building web applications.
+-   🖋️ **TypeScript**: Type-safe development for scalability and maintainability.
+-   🎨 **ShadCN UI**: Sleek, modern, and reusable UI components.
+-   🌈 **Tailwind CSS**: Utility-first CSS framework for responsive and customizable styling.
+
+### **Payment Integration**:
+
+-   💳 **CCAvenue**: Secure and reliable payment processing for online transactions.
+
+---
+
+## **🚀 Live Demo**
+
+👉 Experience the platform here: [Gouranga Paul eCommerce](https://gourangapaul.vercel.app)
+
+---
+
+## **📋 How to Run the Project Locally**
+
+### **🔧 Prerequisites**
+
+-   **Node.js** (v14 or above)
+-   **Yarn**
+
+### **⚙️ Installation Steps**
+
+1. **📂 Clone the Repository**:
+
+    ```bash
+    git clone https://github.com/sharadindudas/gpsons.git
+    cd gpsons
+    ```
+
+2. **📦 Install Dependencies**:
+
+    ```bash
+    yarn install
+    ```
+
+3. **▶️ Run the Development Server**:
+
+    ```bash
+    yarn dev
+    ```
+
+4. **🌐 Access the Application**:  
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## **🌟 Future Enhancements**
+
+-   🔍 Advanced product search and filter options for better discovery.
+-   🛠️ Backend integration for real-time order and inventory management.
+-   📦 Integration with logistics APIs for order tracking.
+-   📱 Mobile app support for cross-platform shopping experiences.
+
+---
+
+## **🤝 Contributing**
+
+Contributions are welcome! To contribute:
+
+1. 🍴 **Fork the Repository**:
+
+    ```bash
+    git fork https://github.com/sharadindudas/gpsons.git
+    ```
+
+2. 🔀 **Create a Branch**:
+
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. 💾 **Commit Your Changes**:
+
+    ```bash
+    git commit -m "Add feature: your-feature-name"
+    ```
+
+4. 📤 **Push to Your Fork**:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. 🛠️ **Create a Pull Request**: Submit your PR for review.
+
+---
+
+## **📜 License**
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## **📞 Contact**
+
+For queries, feedback, or support, feel free to contact us:
+
+-   📧 **Email**: [sharadindudas774@gmail.com](mailto:sharadindudas774@gmail.com)
+-   🐙 **GitHub**: [Sharadindu Das](https://github.com/sharadindudas)
+
+---
+
+Enhance your shopping experience with the trusted brand **Gouranga Paul**! 👗
