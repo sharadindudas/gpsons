@@ -1,0 +1,13 @@
+/* ======================== Footer ========================== */
+.footer-links {
+  @apply flex items-center text-color-10 gap-x-2 capitalize;
+}
+
+.footer-links li:first-child {
+  border: none;
+}
+
+.footer-links li {
+  border-left: 1px #4f515c solid;
+  @apply pl-4;
+}

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================== Common Class ========================== */
+body {
+  @apply relative min-h-screen flex flex-col;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  @apply w-[10px];
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-color-3/20 rounded-lg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-color-3/40 rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-color-3/80;
+}
+
+.dropcap {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding-left: 3px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.custom-checkbox {
+  @apply inline-block w-4 h-4 bg-white border border-black/60 relative cursor-pointer rounded-[3px];
+}
+
+input[type="checkbox"]:checked + .custom-checkbox {
+  @apply bg-color-3 border-none flex items-center justify-center;
+}
+
+input[type="checkbox"]:checked + .custom-checkbox img {
+  @apply inline-block;
+}
+
+.underline-effect::after {
+  content: "";
+  @apply absolute -bottom-2 -translate-x-1/2 left-1/2 right-0 h-[3px] bg-black/70 w-[40%] transition-all duration-500;
+}
+
+.underline-effect:hover::after {
+  @apply w-[70%] bg-color-3/80;
+}

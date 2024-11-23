@@ -1,0 +1,42 @@
+/* ======================== Home Page ========================== */
+.common-section {
+  @apply text-center px-10 py-10 relative;
+}
+
+.divider {
+  @apply my-5 bg-black/60 h-[1px] w-1/2 mx-auto;
+}
+
+.brand-img-card {
+  box-shadow: -2px 9px 20px 3px #1811114d;
+  @apply w-56 h-56 rounded-full overflow-hidden cursor-pointer relative;
+}
+
+.brand-img-card:hover .shadow-effect {
+  @apply bottom-0;
+}
+
+.shadow-effect {
+  @apply absolute left-0 right-0 bg-gray-500/50 text-white h-1/2 -bottom-full py-7 backdrop-blur-[2px] transition-all duration-300;
+}
+
+.banner-carousel .swiper-wrapper .swiper-slide-prev,
+.banner-carousel .swiper-wrapper .swiper-slide-next {
+  @apply opacity-50 transition-all duration-300;
+}
+
+.banner-carousel .swiper-wrapper .swiper-slide-active {
+  @apply opacity-100 transition-all duration-300;
+}
+
+.product-carousel .swiper-slide {
+  @apply !w-[20rem];
+}
+
+.testimonial-carousel .swiper-slide {
+  @apply !w-[30rem];
+}
+
+.subcategory-marquee .subcategory {
+  @apply cursor-pointer ml-12 !w-[10rem];
+}

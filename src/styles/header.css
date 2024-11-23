@@ -1,0 +1,40 @@
+/* ======================== Header ========================== */
+.search::before {
+  content: "";
+  @apply bg-gray-300 w-px h-7 -left-1 absolute;
+}
+
+.nav-link {
+  @apply relative inline-block;
+}
+
+.nav-link::before {
+  content: "";
+  @apply absolute -bottom-1 left-0 w-[0%] h-0.5 bg-color-3/80 transition-all duration-300;
+}
+
+.nav-link:hover {
+  @apply text-color-3/80;
+}
+
+.nav-link:hover::before {
+  @apply w-full;
+}
+
+.nav-link.active {
+  @apply text-color-3/80;
+}
+
+.nav-link.active::after {
+  content: "";
+  @apply absolute -bottom-1 left-0 w-full h-0.5 bg-color-3/80 transition-all duration-300;
+}
+
+.category-links a::after {
+  content: "";
+  @apply absolute -right-8 top-0 bg-color-3/80 w-[1px] h-full;
+}
+
+.category-links a:last-child::after {
+  @apply block w-0 h-0;
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '🏗️ Checking for build errors...'
+yarn build
+
+echo '🔬 Checking for linting errors...'
+yarn lint
+
+echo '🎭 Running prettier and eslint on staged files...'
+yarn lint-staged

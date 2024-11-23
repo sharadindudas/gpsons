@@ -1,0 +1,30 @@
+.small-slider .swiper-button-prev,
+.small-slider .swiper-button-next {
+  @apply bg-color-3/30 rounded-lg rotate-90 left-1/2 -translate-x-1/2 flex items-center text-center w-[40px] h-[100px];
+}
+
+.small-slider .swiper-button-prev.swiper-button-disabled,
+.small-slider .swiper-button-next.swiper-button-disabled {
+  opacity: 1;
+}
+
+.small-slider .swiper-button-prev::after,
+.small-slider .swiper-button-next::after {
+  @apply text-white text-4xl font-semibold;
+}
+
+.small-slider .swiper-button-prev {
+  @apply -top-1.5 bottom-[unset];
+}
+
+.small-slider .swiper-button-next {
+  @apply top-[unset] -bottom-7 pl-1;
+}
+
+.small-slider .swiper-slide {
+  @apply border-2 border-transparent;
+}
+
+.small-slider .swiper-slide.swiper-slide-thumb-active {
+  @apply border-2 border-color-3/70 rounded-lg;
+}
